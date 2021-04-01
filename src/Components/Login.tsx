@@ -6,33 +6,31 @@ export const LoginPage: React.FC = () => {
     return(
         <div className="Container">
             <div className="Cadastro">
-                <h3 >Login</h3>
 
                 <section className="InfoPessoais">
-                    <a id="Google">
-                        Entrar com o Google
+                    <h3 className='Title'>Login</h3>
+
+                    <a href='#' id="Google">
+                       <img src={'Assets/Google.svg'} alt="Logo do Google" id='GoogleIcon'/>
+                       Entrar com o Google
                     </a>
                     
                     OU
 
                     <input className='Inputs' type="email" placeholder="Email"/>
                     <input className='Inputs' type="password" placeholder='Senha'/>
+                    
+                    <div id='LembrarDeMim' >
+                        <input type="checkbox"/>
+                        <label htmlFor="LembrarDeMim">Lembrar de mim</label>
+                    </div>
+
                     <button id='Enviar' type="submit">Entrar</button>
                     
                 </section>
 
-                <section className="Forgot">
-                    <span>
-                        <input type="checkbox" id='LembrarDeMim'/>
-                        <label htmlFor="LembrarDeMim">Lembrar de mim</label>
-                    </span>
-
-                    <span>
-                        <a href="#" id='ForgotPassword'>Esqueci minha senha</a>
-                    </span>
-                </section>
-
                 <footer>
+                    <a href="#" id='ForgotPassword'>Esqueci minha senha</a>
                     <a href="#">Ainda não tenho uma conta</a>
                 </footer>
             </div>
