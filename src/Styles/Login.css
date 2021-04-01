@@ -1,0 +1,79 @@
+a:visited{
+    color: inherit;
+}
+.Container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+.Cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 23%;
+    color:red;
+
+    margin:  auto;
+    border: solid 2px black;
+}
+
+.InfoPessoais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Lembrar{
+    display: flex;
+    align-items: left;
+    text-align: left;
+    float: left;
+}
+
+#Google{
+    width: 80%;
+    padding: 10px 5px 10px 5px;
+    background-color: blue;
+
+    border-radius: 45px;
+}
+
+.Forgot{
+    display: flex;
+    justify-content: space-between;
+}
+/*---------------- Inputs e Buttons -----------------*/
+.Inputs{
+    width: 80%;
+    padding: 10px 5px 10px 5px;
+    margin: 3px;
+    background-color: blue;
+
+    border-radius: 45px;
+    outline: none;
+    border: 0;
+}
+
+#Enviar{
+    width: 40%;
+    padding: 10px 5px 10px 5px;
+    border-radius: 45px;
+    border: 2px black solid
+}
+#Enviar:focus{
+    outline: none;
+    cursor: pointer;
+
+    background-color: gray;
+}
+
+#ForgotPassword{
+    font-style: italic;
+}
+/*---------------- Footer -----------------*/
+
+footer{
+    font-style: italic;
+}
